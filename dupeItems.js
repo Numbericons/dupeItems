@@ -11,7 +11,6 @@ function duplicateCount(text) {
       cntHash[str[i]] = 1;
     }
   }
-  // console.log(cntHash);
   return count;
 }
 // let res = duplicateCount("") //0
